@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="em">
+  <head>
+    <link rel="stylesheet" type="text/css" href="..Omnifood/vendors/css/normalize" >
+    <link rel="stylesheet" type="text/css" href=" ../Omnifood/vendors/css/grid.css" >
+    <!--<link rel="stylesheet" type="text/css" href=" ../Omnifood/vendors/css/ionicons.min.css" > NO ADDED cdnjs.CLOUDFLARE - AJAX-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">
+    <link rel="stylesheet" type="text/css" href="../Omnifood/resources/css/style.css" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+  <title>Omifood</title>
+</head>
+  <body>
+
+<header>
+  <nav>
+    <div class="row">
+                  <img src="resources/css/img/logo-white.png" alt="Omnifood logo" class="logo">
+                  <ul class="main-nav">
+                      <li><a href="#">Food delivery</a></li>
+                      <li><a href="#">How it works</a></li>
+                      <li><a href="#">Our cities</a></li>
+                      <li><a href="#">Sign up</a></li>
+                  </ul>
+              </div>
+          </nav>
+
+      <div class="hero-text-box" >
+        <h1>GOODBYE JUNK FOOD. HELLO SUPER FOOD</h1>
+        <a class="btn btn-full" href="#">I'm hungry</a>
+        <a class="btn btn-ghost" href="#">Show me more</a>
+      </div>
+
+</header>
+
+<section>
+  <div class"section-feature">
+    <div class="row">
+      <h2>GET FOOD FAST &mdash; NOT FAST</h2>
+      <p class-"long-copy">
+        Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+        </p>
+    </div>
+
+    <div class="row">
+      <div class="col span-1-of-4 box">
+        <i class="ion-ios-infinite-outline big-icon"></i>
+        <h3>Up to 365 days/year</h3>
+        <p>
+          Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
+        </p>
+      </div>
+
+
+      <div class="col span-1-of-4 box">
+        <i class="ion-ios-stopwatch-outline big-icon"></i>
+        <h3>Ready in 20 minutes</h3>
+        <p>
+          You're only twenty minutes away from your delicious and super healthy meals delivered right to your home.
+          We work with the best chefs in each town to ensure that you're 100% happy.
+        </P>
+      </div>
+
+
+    <div class="col span-1-of-4 box">
+      <i class="ion-ios-nutrition-outline big-icon" ></i>
+      <h3>100% organic</h3>
+      <p>
+        All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!
+  </P>
+</div>
+
+
+  <div class="col span-1-of-4">
+    <i class="ion-ios-cart-outline big-icon"></i>
+    <h3>Order anything</h3>
+    <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!
+
+  </p>
+  </div>
+</div>
+
+
+</div>
+</section>
+
+
+
+
+
+</body>
+</html>
+
+/*===============================================================================================*/
+CSS3
+/*==============================================================================================*/
+/* color #e67e22;/ all on color -html */
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*--------------------------------------------------------------*/
+/* BASIC SETUP*/
+/* -------------------------------------------------------------*/
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*--------------------------------------------------------------*/
+/* REUSABLE COMPOMENT*/
+/* -------------------------------------------------------------*/
+
+/* Text lines (column) clear layout*/
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%
+}
+/*--------HEADER---------*/
+ h1
+ h2,
+ h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+
+
+}
+
+h1{
+  margin-top: o;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 240%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2{
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h3{
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width:  100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    }
+
+/*-------PARAGRAPHS-----------------*/
+.long-copy{
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/*------- ICONS-----------------*/
+
+.big-icon {
+  font-size:350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
+
+/*-------  LINKS  ----------*/
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+
+}
+
+
+
+
+
+/*-------BUTTONS-----------------*/
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+  transition: background-color: 0.2s, border 0,2s, color 0.2;
+
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+
+
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------*/
+/* HEADER*/
+/* -------------------------------------------------------------*/
+
+header{
+  background-image:linear-gradient(rgba(0, 0,0,0.7), #000), url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+  background-attachment: fixed;
+
+}
+
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 100;
+  weight: auto;
+  float: left;
+  margin:20px;
+}
+
+.main-nav {
+  float:right;
+  list-style: none;
+  margin-top:60px;
+}
+
+.main-nav li{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main nav li a:visited {
+  color: #fff;
+  text-decoration: none
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition:border-bottom: 1.5s;
+  
+
+}
+.main-nav li a:hover,
+.main nav li a:active {
+  border-bottom: 2px solid #e67e22;
+}
+
+============================================================================================
